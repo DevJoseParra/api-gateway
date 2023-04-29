@@ -18,7 +18,7 @@ spring:
       - id: HOTEL-MICROSERVICE
         uri: lb://HOTEL-MICROSERVICE
         predicates:
-        - Path=/api/hotel/v1/**
+        - Path=/api/hotel/v1/**,/api/hotelnames/v1/**
         
         
       - id: QUALIFICATION-MICROSERVICE
